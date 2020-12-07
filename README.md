@@ -17,5 +17,13 @@ O colaborador só poderá atuar após completar uma série de cursos de como tra
 
 ## 2. Fundamentação Técnica
 
-Para o desenvolvimento técnico deste projeto, será utilizado API's para localização e plataforma de pagamento online do cliente, fornecedor e colaborador.
+Para o desenvolvimento técnico deste projeto, será utilizado API's para localização (geolocalização) e plataforma de pagamento online do cliente, fornecedor e colaborador.
 Para o desenvolvimento do sistema será utilizado REST API e para desenvolvimento da aplicação utilizarei Dart com o framework Flutter.
+
+### 2.1 Localização
+
+Através de um satélite é obtido a localização geográfica de um dispositivo que precisa ter conexão com a internet para se tornar visível.
+Neste projeto a geolocalização será usada nos três tipos de usuários (colaborador, fornecedor e cliente).
+No colaborador, a geolocalização terá como principal função mostrar onde o fornecedor e o cliente estão para que possa ser feito o transporte do combustível para o destino final.
+No fornecedor, a geolocalização atuará mostrando a distância entre o própio fornecedor e colaborador, mostrará também a distância até o cliente.
+No cliente, a geolocalização terá o papel de mostrar a distância entre o própio cliente e colaborador.
